@@ -11,4 +11,3 @@ song.save
 song2 = Song.new(name: "Whats up", album: "Bro") 
 song2.save
 puts DB[:conn].execute("SELECT * FROM songs")
-binding.pry 
